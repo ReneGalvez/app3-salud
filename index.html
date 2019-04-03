@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!--grupo CSS-->
+
+<link rel="stylesheet" href="css/temaapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScrip-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="phonegap.js"></script><!--nesesario*/-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/tieeraa_corazones.jpg','imagenes/fondi_realiti.jpg','imagenes/salud2_4.jpg')">
+<div data-role="page" id="principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Día mundial de la salud 7 de abril</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>INFOGRAFIA</h1>
+      <div>
+       <h2>Informacion sobre el dia mundial de la salud </h2>
+       <br>
+       <div>
+        <p> La salud es un estado de completo bienestar físico,mental y social, y no solamente la ausencia de afectaciones o enfermedades.
+        <br>
+        </p>
+        <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/tieeraa_corazones.jpg',1)"><img src="imagenes/mundial_de_la_salud.jpg" width="60%" height="70%" id="Image29"></a> </div>
+            <a href="https://www.who.int/es/campaigns" target="_self"> Ir a la pagina who</a>
+        <p>La OMS —WHO, por su sigla en inglés— se creó el 7 de abril de 1948 en Ginebra, Suiza. En esa misma oportunidad la Asamblea de las Naciones Unidas determinó que el 7 se abril se celebraría en todo el mundo el Día Mundial de la Salud.
+      
+       Por lo tanto, la “Salud para todos” ha sido la visión que nos ha guiado a lo largo de más de siete decenios. También es el motor de la actual iniciativa impulsada a nivel de toda la Organización de ayudar a los países a avanzar hacia la cobertura sanitaria universal (CSU).
+       
+   
+  Durante la utilzación de esta aplicación te adentraras sobre el día mundial de la salud y que es lo que ejerce:<br>
+        <ul>
+         <li>Cuando se celebra y porqué?</li>
+         <li>Qué se trata de consegur con la campaña?
+</li>
+         <li>Qué hace la OMS?</li>
+         <li>Cobertura sanitaria universal
+</li>
+         <li>Qué es lo que No incluye la cobertura sanitaria universal</li>
+         </ul>
+       </p>
+      </div>
+ </div>
+ </div>
+</div>
+  
+
+<div>
+ <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+ <li class="ui-first-child ui-last-child">
+  <a href="#pagina1" class="ui-btn  ui-btn-icon-right ui-icon-carat-r">
+    <h2>1.-Cuando se celebra y porqué?</h2>
+     <p></p>
+  </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+  <a href="#pagina2" class="ui-btn  ui-btn-icon-right ui-icon-carat-r">
+    <h2>2.-Qué se trata de conseguir con la campaña?</h2>
+     <p></p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#pagina3" class="ui-btn  ui-btn-icon-right ui-icon-carat-r">
+    <h2>3.-Qué hace la OMS?</h2>
+     <p></p>
+  </a>
+  </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina4" class="ui-btn  ui-btn-icon-right ui-icon-carat-r">
+    <h2>4.-Cobertura sanitaria universal</h2>
+     <p></p>
+  </a>
+  </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#pagina5" class="ui-btn  ui-btn-icon-right ui-icon-carat-r">
+    <h2>5.-Qué es lo que No incluye la cobertura sanitaria universal</h2>
+     <p></p>
+  </a>
+  </li>
+  </ul>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/corazon_real.jpg" alt="corazon_real" title="corazon_real" id="wows1_0"/></li>
+		<li><img src="data1/images/dia_mundial_salud.jpg" alt="dia_mundial salud" title="dia_mundial salud" id="wows1_1"/></li>
+		<li><img src="data1/images/medicina_campana.jpg" alt="medicina_campana" title="medicina_campana" id="wows1_2"/></li>
+		<li><img src="data1/images/mujer_r.jpg" alt="mujer_r" title="mujer_r" id="wows1_3"/></li>
+		<li><img src="data1/images/mundial.jpg" alt="mundial" title="mundial" id="wows1_4"/></li>
+		<li><img src="data1/images/oms_genial.jpg" alt="oms_genial" title="oms_genial" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/sanitaria_universal.jpg" alt="bootstrap image slider" title="sanitaria_universal" id="wows1_6"/></a></li>
+		<li><img src="data1/images/universal_sani.jpg" alt="universal_sani" title="universal_sani" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="corazon_real"><span><img src="data1/tooltips/corazon_real.jpg" alt="corazon_real"/>1</span></a>
+		<a href="#" title="dia_mundial salud"><span><img src="data1/tooltips/dia_mundial_salud.jpg" alt="dia_mundial salud"/>2</span></a>
+		<a href="#" title="medicina_campana"><span><img src="data1/tooltips/medicina_campana.jpg" alt="medicina_campana"/>3</span></a>
+		<a href="#" title="mujer_r"><span><img src="data1/tooltips/mujer_r.jpg" alt="mujer_r"/>4</span></a>
+		<a href="#" title="mundial"><span><img src="data1/tooltips/mundial.jpg" alt="mundial"/>5</span></a>
+		<a href="#" title="oms_genial"><span><img src="data1/tooltips/oms_genial.jpg" alt="oms_genial"/>6</span></a>
+		<a href="#" title="sanitaria_universal"><span><img src="data1/tooltips/sanitaria_universal.jpg" alt="sanitaria_universal"/>7</span></a>
+		<a href="#" title="universal_sani"><span><img src="data1/tooltips/universal_sani.jpg" alt="universal_sani"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap slideshow</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  </div>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46" alt="pie">
+  </div>
+  <div>
+    <h4>Aplicacion 3 Día Mundial de la Salud OMS</h4>
+    <h4>Eulogio Rene Galvez Segundo</h4>
+ </div>
+</div>
+</div>
+ 
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>1.-Cuando se celebra y porqué?</h1>
+    </div>
+    <div>
+     <p>El 7 de abril de 1945 se constituyó oficialmente la Organización Mundial de la Salud, y su primera designación pública consistió en crear un día que, aparte de conmemorar el aniversario de la legalización de la OMS, se dedicara a promover hábitos sanos en las personas y a generar campañas que concienticen sobre enfermedades que agigantan la tasa de mortalidad en el planeta. </p>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/fondi_realiti.jpg',1)"><img src="imagenes/corazon_feliz.jpg" width="60%" height="70%" id="Image28"></a> </div>
+        <a href="https://www.vix.com/es/btg/curiosidades/61256/por-que-se-celebra-el-dia-mundial-de-la-salud-el-7-de-abril" target="_self"> Ir a la pagina vix </a>
+      </div>
+      </div>
+<div data-role="footer" align="center" data-theme="b"  data-position="fixed">
+      <div>
+       <img src="imagenes/persona_azul.png" width="46" height="46" alt="pie">
+      </div>
+        <h4>Aplicacion 3 Día Mundial de la Salud OMS</h4>
+        <h4>Eulogio Rene Galvez Segundo</h4>
+  </div>
+ </div>
+<div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>2.-Qué se trata de conseguir con la campaña?</h1>
+       </div>
+          <div>
+       <p>Entre las actividades que realiza la OMS se encuentran tales como:
+       <ul type="square">
+        <li> Armonización y codificación de enfermedades y medicamentos, medidas sanitarias de prevención  y emergencia, asistencia a los países menos avanzados y porgramas específicos para la lucha contra enfermedades.</li>
+        </p>
+       </ul>
+     </div>
+     <div data-role="content" align="center">
+      <div>
+      <img src="imagenes/medicina_campana.jpg" width="60%" height="70%" alt="campana">
+      </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="b"  data-position="fixed">
+      <div>
+       <img src="imagenes/persona_azul.png" width="46" height="46" alt="pie">
+      </div>
+        <h4>Aplicacion 3 Día Mundial de la Salud OMS</h4>
+        <h4>Eulogio Rene Galvez Segundo</h4>
+     </div>
+     </div>
+ 
+ 
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>3.-Qué hace la OMS?</h1>
+    </div>
+    <div>
+       <p>En su constitución, la OMS establece que sus principios son:
+       <ul type="square">
+        <li>La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.</li>
+        <li>El goce del grado máximo de salud que se pueda lograr es uno de los derechos fundamentales de todo ser humano sin distinción de raza, religión, ideología política o condición económica o social.</li>
+        <li>La salud de todos los pueblos es una condición fundamental para lograr la paz y la seguridad y depende de la más amplia cooperación de las personas y de los Estados.</li>
+        <li>Los resultados alcanzados por cada Estado en el fomento y protección de la salud son valiosos para todos.</li>
+        <li>La desigualdad de los diversos países en lo relativo al fomento de la salud y el control de las enfermedades, sobre todo las transmisibles, constituye un peligro común.</li>
+        <li>El desarrollo saludable del niño es de importancia fundamental; la capacidad de vivir en armonía en un mundo que cambia constantemente es indispensable para este desarrollo.</li>
+        <li>La extensión a todos los pueblos de los beneficios de los conocimientos médicos, psicológicos y afines es esencial para alcanzar el más alto grado de salud.</li>
+        <li>Una opinión pública bien informada y una cooperación activa por parte del público son de importancia capital para el mejoramiento de la salud del pueblo.</li>
+        <li>Los gobiernos tienen la responsabilidad de garantizar la salud de sus pueblos, la cual solo puede ser cumplida mediante la adopción de medidas sanitarias y sociales adecuadas.</li>
+       </ul>
+      </p>
+     </div>
+    <div data-role="content" align="center">
+      <div>
+      <img src="imagenes/oms_genial.jpg" width="60%" height="70%" alt="oms1">
+      </div>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="b"  data-position="fixed">
+      <div>
+       <img src="imagenes/persona_azul.png" width="46" height="46" alt="pie">
+      </div>
+        <h4>Aplicacion 3 Día Mundial de la Salud OMS</h4>
+        <h4>Eulogio Rene Galvez Segundo</h4>
+   </div>
+ </div>
+<div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>4.-Cobertura sanitaria universal</h1>
+    </div>
+    <div>
+    <p>El objetivo de la cobertura sanitaria universal es asegurar que todas las personas reciban los servicios sanitarios que necesitan, sin tener que pasar penurias financieras para pagarlos. Para que una comunidad o un país pueda alcanzar la cobertura sanitaria universal se han de cumplir varios requisitos, a saber:
+      <ul type="square">
+       <li>Un sistema de salud sólido;</li>
+       <li>Un sistema de financiación de los servicios de salud;</li>
+       <li>Acceso a medicamentos y tecnologías esenciales;</li>
+       <li>Personal sanitario bien capacitado.
+       </li>
+      </ul>
+    </p>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+      <img src="imagenes/universal_sani.jpg" width="60%" height="70%" alt="saniu">
+      </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="b"  data-position="fixed">
+      <div>
+       <img src="imagenes/persona_azul.png" width="46" height="46" alt="pie">
+      </div>
+        <h4>Aplicacion 3 Día Mundial de la Salud OMS</h4>
+        <h4>Eulogio Rene Galvez Segundo</h4>
+  </div>
+ </div>
+<div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>5.-Qué es lo que No incluye la cobertura sanitaria universal</h1>
+    </div>
+    <div>
+      <ul type="square">
+      <li>La CSU no implica la cobertura gratuita de todas las intervenciones sanitarias posibles, independientemente de su costo, ya que ningún país puede permitirse ofrecer todos los servicios gratuitamente de forma sostenible</li>
+      <li>La CSU no se refiere únicamente a la financiación de la salud: abarca todos los componentes del sistema de salud, a saber, los sistemas de prestación de servicios de salud, el personal sanitario, las instalaciones sanitarias o las redes de comunicación, las tecnologías sanitarias, los sistemas de información, los mecanismos de garantía de la calidad, la gobernanza y la legislación.</li>
+      <li>La CSU no solo tiene por finalidad asegurar un conjunto de servicios de salud mínimos, sino también lograr la ampliación progresiva de la cobertura de los servicios de salud y de la protección financiera, conforme se disponga de más recursos.</li>
+      <li>La CSU no solo engloba los servicios de tratamiento específicos, sino también incluye los servicios a la población como las campañas de salud pública, la adición de flúor al agua, el control de los lugares de reproducción de los mosquitos, entre otros.</li>
+      <li>La CSU comprende mucho más que solo la salud. Adoptar medidas para alcanzar la cobertura sanitaria universal equivale a adoptar medidas para lograr la equidad, las prioridades en materia de desarrollo y la inclusión y cohesión sociales.</li>
+      </ul>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/salud2_4.jpg',1)"><img src="imagenes/sanitaria_universal.jpg" width="60%" height="70%" id="Image27"></a> </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="b"  data-position="fixed">
+      <div>
+       <img src="imagenes/persona_azul.png" width="46" height="46" alt="pie">
+      </div>
+        <h4>Aplicacion 2 Esp Programacion</h4>
+        <h4>Eulogio Rene Galvez Segundo</h4>
+  </div>
+ </div>
+ 
+</body>
+</html>
